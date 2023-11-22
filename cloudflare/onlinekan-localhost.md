@@ -29,5 +29,5 @@ untuk berbagi sumber daya di jaringan internal, seperti server web lokal, ke int
     
 ---    
 
-Kalo bisa pelajari lebih lengkap terkait berbagai perintah dan konfigurasi `cloudflared tunnel` di dokumentasinya
+Ko bisa pelajari lebih lengkap terkait berbagai perintah dan konfigurasi `cloudflared tunnel` di dokumentasinya
 yang bisa ko akses melalui [link ini](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/)
