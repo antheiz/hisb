@@ -24,7 +24,7 @@ Kumpulan tulisan singkat tentang hal-hal kecil yang sa pelajari sehari-hari di b
 
 ## Tentang
 
-Ide untuk menulis ini berdasarkan repository
+Ide untuk menulis ini terinspirasi dari repository
 [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ## Lisensi
