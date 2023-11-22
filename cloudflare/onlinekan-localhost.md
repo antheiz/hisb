@@ -26,3 +26,8 @@ untuk berbagi sumber daya di jaringan internal, seperti server web lokal, ke int
     Jalankan perintah `cloudflared tunnel --url localhost:8000` di Terminal dan Ini akan memulai tunnel dan mengarahkan lalu lintas dari domainnya cloudflare ke localhost:8000.
     
     >  hostname `:8000` bisa ko ganti dengan port lain dijalankan di localhost
+    
+---    
+
+Kalo bisa pelajari lebih lengkap terkait berbagai perintah dan konfigurasi `cloudflared tunnel` di dokumentasinya
+yang bisa ko akses melalui [link ini](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/)
