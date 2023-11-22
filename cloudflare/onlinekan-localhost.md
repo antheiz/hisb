@@ -1,6 +1,6 @@
 # Onlinekan Localhost
 
-Kalo mau localhost diakses oleh komputer lain dengan aman dan cepat ko bisa pake
+Kalo mau localhost diakses oleh komputer lain dengan aman dan cepat bisa pake
 [cloudflared tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/).
 Cloudflare Tunnel atau dikenal sebagai `cloudflared tunnel` adalah sebuah layanan dari Cloudflare yang memungkinkan
 untuk berbagi sumber daya di jaringan internal, seperti server web lokal, ke internet.
@@ -9,7 +9,7 @@ untuk berbagi sumber daya di jaringan internal, seperti server web lokal, ke int
 
 1. Buat akun Cloudflare
 
-    Sebelum pake layanan ini ko harus punya akun yang terdaftar di cloudflare. Jadi buat akun dulu dengan
+    Sebelum pake layanan ini, harus punya akun yang terdaftar di cloudflare. Jadi buat akun dulu dengan
     klik [disini](https://dash.cloudflare.com/sign-up)
 
 2. Instalasi `cloudflared`
@@ -18,15 +18,15 @@ untuk berbagi sumber daya di jaringan internal, seperti server web lokal, ke int
     
 3. Otentikasi `cloudflared`
 
-    Selanjutnya ko perlu login ke cloudflare dengan menjalankan perintah `cloudflared tunnel login` di Terminal/Command Prompt. Ini berfungsi untuk menghubungkan software `cloudflared` yang telah di-install dengan ko punya akun Cloudflare.
+    Selanjutnya perlu login ke cloudflare dengan menjalankan perintah `cloudflared tunnel login` di Terminal/Command Prompt. Ini berfungsi untuk menghubungkan software `cloudflared` yang telah di-install dengan akun Cloudflare.
     
 4. Jalankan Tunnel
 
-    Yep! pada tahap ini ko bisa jalankan tunnel untuk mengonlinekan sumberdaya di localhost.
+    Yep! pada tahap ini saatnya jalankan tunnel untuk mengonlinekan sumberdaya di localhost.
     Jalankan perintah `cloudflared tunnel --url localhost:8000` di Terminal dan Ini akan memulai tunnel dan mengarahkan lalu lintas dari domainnya cloudflare ke localhost:8000.
     
     >  port `:8000` bisa diganti dengan port lain yang jalankan di localhost
     
 
-Ko bisa pelajari lebih lengkap terkait berbagai perintah dan konfigurasi `cloudflared tunnel` di dokumentasinya
+Selanjutnya silahkan pelajari lebih lengkap terkait berbagai perintah dan konfigurasi `cloudflared tunnel` di dokumentasinya
 yang bisa diakses melalui [link ini](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/)
