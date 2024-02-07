@@ -4,7 +4,7 @@ Untuk melakukan pengaturan SSH untuk multi-akun Github, ikuti panduan berikut:
 
 ## 1. Buat Kunci SSH baru
 
-- Buka terminal dan jalankan perintah berikut untuk membuat kunci SSH baru. Gantikan `email@example.com` dengan email yang terkait dengan setiap akun Github anda.
+Buka terminal dan jalankan perintah berikut untuk membuat kunci SSH baru. Gantikan `email@example.com` dengan email yang terkait dengan setiap akun Github anda.
 
     ```sh
     ssh-keygen -t rsa -b 4096 -C "email@example.com"
@@ -12,7 +12,7 @@ Untuk melakukan pengaturan SSH untuk multi-akun Github, ikuti panduan berikut:
 
     > Angka 4096 dalam perintah diatas menunjukkan panjang bit dari kunci yang dihasilkan.
 
-- Saat diminta untuk memasukkan nama file di mana kunci akan disimpan, masukkan path dan nama file yang unik, misal:
+Saat diminta untuk memasukkan nama file di mana kunci akan disimpan, masukkan path dan nama file yang unik, misal:
 
     ```sh
     /home/username/.ssh/id_rsa_username
@@ -22,13 +22,13 @@ Untuk melakukan pengaturan SSH untuk multi-akun Github, ikuti panduan berikut:
 
 > `ssh-agent` adalah program yang digunakan untuk menyimpan kunci privat SSH secara pribadi di memori.  Ini sangat berguna dalam memudahkan manajemen kunci SSH.
 
-- Pastikan ssh-agent sedang berjalan dengan perintah:
+Pastikan ssh-agent sedang berjalan dengan perintah:
 
     ```sh
     eval "$(ssh-agent -s)"
     ```
 
-- Tambahkan kunci SSH ke ssh-agent:
+Tambahkan kunci SSH ke ssh-agent:
 
     ```sh
     ssh-add ~/.ssh/id_rsa_username
@@ -46,13 +46,13 @@ Untuk melakukan pengaturan SSH untuk multi-akun Github, ikuti panduan berikut:
 
 ## 4. Konfigurasi File ~/.ssh/config
 
-- Buat atau modifikasi file konfigurasi SSH untuk menambahkan host baru untuk setiap akun Github.
+Buat atau modifikasi file konfigurasi SSH untuk menambahkan host baru untuk setiap akun Github.
 
     ```sh
     nano ~/.ssh/config
     ```
 
-- Tambahkan konfigurasi berikut:
+Tambahkan konfigurasi berikut:
 
     ```sh
     # Akun Github pertama
@@ -75,8 +75,8 @@ Untuk melakukan pengaturan SSH untuk multi-akun Github, ikuti panduan berikut:
 
 Ketika ingin bekerja dengan repository yang terkait dengan setiap akun, clone repository berbasis SSH. Lalu ganti url remote menggunakan host baru:
 
-```sh
-git clone git@first.github.com:username/repo.git
-```
+    ```sh
+    git clone git@first.github.com:username/repo.git
+    ```
 
-> Ganti `username` dengan nama pengguna Github Anda dan `repo` dengan nama repository.
+    > Ganti `username` dengan nama pengguna Github Anda dan `repo` dengan nama repository.
