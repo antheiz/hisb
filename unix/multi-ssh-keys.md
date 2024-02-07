@@ -68,7 +68,7 @@ Host second.github.com
     IdentityFile ~/.ssh/id_rsa_username2
 ```
 
-> Ganti `id_rsa_username` dengan nama file kunci pribadi yang benar untuk kedua kunci ssh.
+> Ganti `id_rsa_username` dengan nama file kunci pribadi yang benar untuk setiap akun.
 
 
 ## 5. Gunakan Host Baru dalam Repository
