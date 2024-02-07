@@ -80,3 +80,10 @@ git clone git@first.github.com:username/repo.git
 ```
 
 > Ganti `username` dengan nama pengguna Github Anda dan `repo` dengan nama repository.
+
+Sebelum Anda melakukan push ke GitHub menggunakan akun spesifik, Anda perlu mengonfigurasi Git dengan `username` dan `email` dari akun tersebut
+
+```sh
+git config user.name "username"
+git config user.email "email@example.com" 
+```
