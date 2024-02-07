@@ -32,5 +32,4 @@ Ide untuk menulis ini terinspirasi dari repository
 
 &copy; 2023 Theis Andatu
 
-Repositori ini dilisensikan di bawah lisensi MIT. Lihat `LICENSE` untuk
-detail.
+Repositori ini dilisensikan di bawah [lisensi MIT](LICENSE).
