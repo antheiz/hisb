@@ -21,7 +21,7 @@ Kumpulan tulisan singkat tentang hal-hal kecil yang sa pelajari sehari-hari di b
 ### Unix
 
 - [Bersihkan Layar](unix/bersihkan-layar.md)
-- [SSH Multi-Akun Github](unix/multi-ssh-keys.md) 
+- [Multi-Akun SSH Github](unix/multi-ssh-keys.md) 
 
 ## Tentang
 
