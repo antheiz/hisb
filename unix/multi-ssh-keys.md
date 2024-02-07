@@ -1,6 +1,6 @@
 # Pengaturan SSH Multi-Akun Github
 
-Untuk melakukan pengaturan SSH untuk multi-akun Github, ikuti panduan berikut:
+Melakukan pengaturan SSH untuk multi-akun Github, ikuti panduan berikut:
 
 ## 1. Buat Kunci SSH baru
 
