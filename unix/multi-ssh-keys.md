@@ -57,15 +57,15 @@ Untuk melakukan pengaturan SSH untuk multi-akun Github, ikuti panduan berikut:
     ```sh
     # Akun Github pertama
     Host first.github.com
-    HostName github.com
-    User git
-    IdentityFile ~/.ssh/id_rsa_username
+        HostName github.com
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/id_rsa_username
 
     # Akun Github kedua
     Host second.github.com
-    HostName github.com
-    User git
-    IdentityFile ~/.ssh/id_rsa_username2
+        HostName github.com
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/id_rsa_username2
     ```
 
     > Ganti `id_rsa_username` dengan nama file kunci pribadi yang benar untuk kedua kunci ssh.
