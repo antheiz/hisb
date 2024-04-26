@@ -30,6 +30,6 @@ Ide untuk menulis ini terinspirasi dari repository
 
 ## Lisensi
 
-&copy; 2023 Theis Andatu
+&copy; 2023 Antheiz
 
 Repositori ini dilisensikan di bawah [lisensi MIT](LICENSE).
