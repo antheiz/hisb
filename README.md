@@ -22,7 +22,7 @@ Kumpulan tulisan singkat tentang hal-hal kecil yang sa pelajari sehari-hari di b
 ### Github
 
 - [Deploy ke Linux Server dengan GitHub Actions](github/deploy-linux-github-actions.md)
-- [Kirim Notifikasi ke Discord setelah GitHub Actions dijalankan](github/setup-discord-notification.md)
+- [Kirim Notifikasi ke Discord setelah GitHub Actions Dijalankan](github/setup-discord-notification.md)
 
 
 ### Unix
