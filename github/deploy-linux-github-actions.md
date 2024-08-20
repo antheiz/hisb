@@ -26,7 +26,7 @@ ssh-keygen
 
 Jika diminta untuk memberi nama pada key, Anda dapat menggunakan nama apa pun. Dalam contoh ini, nama yang digunakan adalah `fighter`. Perintah ini akan menghasilkan dua file: _public key_ dan _private key_. File _public key_ biasanya memiliki ekstensi `.pub`, misalnya `fighter.pub`.
 
-Selanjutnya, salin isi dari _public key_ (**fighter.pub**) ke file **authorized_keys** untuk memberikan akses SSH:
+Selanjutnya, salin isi dari _public key_ (`fighter.pub`) ke file `authorized_keys` untuk memberikan akses SSH:
 
 ```sh
 cat fighter.pub >> ~/.ssh/authorized_keys
