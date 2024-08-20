@@ -9,6 +9,7 @@ Kumpulan tulisan singkat tentang hal-hal kecil yang sa pelajari sehari-hari di b
 ### Kategori
 
 * [Cloudflare](#cloudflare)
+* [GitHub](#github)
 * [Unix](#unix)
 
 ---
@@ -16,6 +17,11 @@ Kumpulan tulisan singkat tentang hal-hal kecil yang sa pelajari sehari-hari di b
 ### Cloudflare
 
 - [Onlinekan Localhost](cloudflare/onlinekan-localhost.md)
+
+
+### Github
+
+- [Deploy ke Linux Server dengan GitHub Actions](github/deploy-linux-github-actions.md)
 
 
 ### Unix
@@ -30,6 +36,6 @@ Ide untuk menulis ini terinspirasi dari repository
 
 ## Lisensi
 
-&copy; 2023 Antheiz
+&copy; 2023-Present [Antheiz](https://github.com/antheiz)
 
 Repositori ini dilisensikan di bawah [lisensi MIT](LICENSE).
