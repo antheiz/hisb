@@ -1,6 +1,6 @@
-# HISB
+# TIL
 
-> Hari ini Sa Belajar
+> Today I Learning
 
 Kumpulan tulisan singkat tentang hal-hal kecil yang sa pelajari sehari-hari di berbagai bahasa dan teknologi.
 
